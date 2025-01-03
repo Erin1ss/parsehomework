@@ -147,7 +147,7 @@ def save_cookies(update: Update, context: CallbackContext):
 
 def main():
     """Start the Telegram bot."""
-    updater = Updater("7901658924:AAHvoH3jpA9iuAgMPq3_sHP4WS7RgQTvf50", use_context=True) 
+    updater = Updater("YOUR_TELEGRAM_BOT_TOKEN", use_context=True) 
     dispatcher = updater.dispatcher
 
     dispatcher.add_handler(CommandHandler("start", start))
